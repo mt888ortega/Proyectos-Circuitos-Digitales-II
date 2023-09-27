@@ -1,0 +1,6 @@
+|OrGate
+in1 => salida.IN0
+in2 => salida.IN1
+salida << salida.DB_MAX_OUTPUT_PORT_TYPE
+
+

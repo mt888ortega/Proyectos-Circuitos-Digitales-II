@@ -1,0 +1,9 @@
+|dmux
+d => y0.IN0
+d => y1.IN0
+s => y1.IN1
+s => y0.IN1
+y0 <= y0.DB_MAX_OUTPUT_PORT_TYPE
+y1 <= y1.DB_MAX_OUTPUT_PORT_TYPE
+
+

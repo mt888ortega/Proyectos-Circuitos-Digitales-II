@@ -1,0 +1,12 @@
+|Or8Way
+in0 => outt.IN0
+in1 => outt.IN1
+in2 => outt.IN1
+in3 => outt.IN1
+in4 => outt.IN1
+in5 => outt.IN1
+in6 => outt.IN1
+in7 => outt.IN1
+outt <= outt.DB_MAX_OUTPUT_PORT_TYPE
+
+

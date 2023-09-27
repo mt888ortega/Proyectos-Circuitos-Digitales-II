@@ -1,0 +1,22 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Mux4_16 is
+	port(
+		a0, a1, a2, a3 : in std_logic_vector(15 downto 0);
+		sel0, sel1 : in std_logic;
+		y : out std_logic_vector(15 downto 0)
+	);
+end entity;
+
+architecture Behavioral of Mux4_16 is
+	signal x1, x2, x3, x4 : std_logic_vector(15 downto 0);
+
+begin
+	x1 <= (not sel0) and (not sel1) and a0;
+	x2 <= (not sel0) and sel1 and a1;
+	x3 <= sel0 and (not sel1) and a2;
+	x4 <= sel0 and sel1 and a3;
+
+	y <= x1 or x2 or x3 or x4;
+end architecture;

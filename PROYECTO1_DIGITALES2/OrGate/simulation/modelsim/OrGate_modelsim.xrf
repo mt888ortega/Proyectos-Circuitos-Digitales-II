@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, D:/altera_13.1/proyecto1y2_digitales2/OrGate/OrGate.vhd
+source_file = 1, D:/altera_13.1/proyecto1y2_digitales2/OrGate/db/OrGate.cbx.xml
+source_file = 1, d:/altera_13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/altera_13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/altera_13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/altera_13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = OrGate
+instance = comp, \salida~output\, salida~output, OrGate, 1
+instance = comp, \in2~input\, in2~input, OrGate, 1
+instance = comp, \in1~input\, in1~input, OrGate, 1
+instance = comp, \salida~0\, salida~0, OrGate, 1
